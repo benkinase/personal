@@ -435,6 +435,11 @@ Sidebar
   position: absolute;
   margin-left: 16rem;
   margin-top: -2.5rem;
+  color: var(--clr-grey-2);
+}
+
+.a-btn {
+  color: var(--clr-primary-1);
 }
 
 /*ony hero image smaller screen*/
