@@ -402,7 +402,7 @@ Sidebar
 }
 .hero-info h4 {
   color: var(--clr-grey-5);
-  font-size: 1.3rem;
+  font-size: 1.2rem;
 }
 
 .inset {
@@ -455,10 +455,6 @@ Sidebar
   width: 260px;
   border-radius: 50%;
   margin-top: -4.5rem;
-}
-
-.about-title .underline {
-  margin-left: auto;
 }
 
 /* hero desktop*/
