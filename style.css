@@ -402,7 +402,7 @@ Sidebar
 }
 .hero-info h4 {
   color: var(--clr-grey-5);
-  font-size: 1.3rem;
+  font-size: 1rem;
 }
 
 .inset {
@@ -423,7 +423,7 @@ Sidebar
 
 .hero-icons {
   margin-top: -2.2rem;
-  margin-left: 2.4rem;
+  margin-left: 1.75rem;
 }
 
 .hero-icons .fa-github,
@@ -433,8 +433,8 @@ Sidebar
 
 .corriculum {
   position: absolute;
-  margin-left: 16rem;
-  margin-top: -2.5rem;
+  margin-left: 15rem;
+  margin-top: -2.3rem;
   color: var(--clr-grey-2);
 }
 
@@ -493,12 +493,17 @@ Sidebar
 
   .hero-info h4 {
     color: var(--clr-grey-5);
-    font-size: 1.5rem;
+    font-size: 1.7rem;
+  }
+
+  .hero-icons {
+    margin-left: 3.3rem;
   }
 
   .corriculum {
     position: absolute;
     margin-top: -2.4rem;
+    margin-left: 18rem;
   }
 
   .biochem {
@@ -544,26 +549,10 @@ About
 .about-title .underline {
   align-items: center;
 }
-/*tablet*/
 
 @media screen and (min-width: 530px) {
   .about-title .underline {
     margin-left: auto;
-  }
-}
-
-@media screen and (max-width: 530px) {
-  .about-title .underline {
-    margin-left: auto;
-  }
-
-  .hero-info h4 {
-    font-size: 1.2rem;
-  }
-
-  .corriculum,
-  .inset {
-    font-size: 0.9rem;
   }
 }
 
