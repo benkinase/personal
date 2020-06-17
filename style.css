@@ -457,7 +457,7 @@ Sidebar
   margin-top: -4.5rem;
 }
 
-@media screen and (min-width: 530px) {
+@media screen and (max-width: 530px) {
   .about-title .underline {
     margin-left: auto;
   }
