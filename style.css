@@ -457,6 +457,16 @@ Sidebar
   margin-top: -4.5rem;
 }
 
+@media screen and (min-width: 530px) {
+  .about-title .underline {
+    margin-left: auto;
+  }
+
+  .hero-info h4 {
+    font-size: 1.2rem;
+  }
+}
+
 /* hero desktop*/
 @media screen and (min-width: 992px) {
   .hero-img {
