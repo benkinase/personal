@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Benjamin Gbenimako </> Contact</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css"
+      integrity="sha256-46r060N2LrChLLb5zowXQ72/iKKNiw/lAmygmHExk/o="
+      crossorigin="anonymous"
+    />
+    <!--favicon-->
+    <link rel="icon" href="images/favicon.ico" />
+    <!-- css -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- navbar -->
+    <nav class="nav" id="nav">
+      <div class="nav-center">
+        <!-- nav header -->
+        <div class="nav-header">
+          <h5 class="brand embosse"">
+            Benjamin<span class="brand-span">Gbenimako</span>
+          </h5>
+          <button class="nav-btn" id="nav-btn">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+        <!-- nav links -->
+        <ul class="nav-links">
+          <li><a href="index.html">home</a></li>
+          <li><a href="about.html">about</a></li>
+          <li><a href="projects.html">projects</a></li>
+          <li><a href="contact.html">contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <!-- end of navbar -->
+    <!-- sidebar -->
+    <aside class="sidebar" id="sidebar">
+      <div>
+        <button id="close-btn" class="close-btn">
+          <i class="fas fa-times"></i>
+        </button>
+        <ul class="sidebar-links">
+          <li><a href="index.html">home</a></li>
+          <li><a href="about.html">about</a></li>
+          <li><a href="projects.html">projects</a></li>
+          <li><a href="contact.html">contact</a></li>
+        </ul>
+        <ul class="social-icons">
+          <li>
+            <a
+              href="https://www.github.com/benkinase"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="social-icon"
+            >
+              <i class="fab fa-github"></i>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/benjamin-gbenimako-81b014a5/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="social-icon"
+            >
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </aside>
+    <!-- end of sidebar -->
+
+    <section class="section bg-grey">
+      <div class="section-title">
+        <h1>contact</h1>
+        <div class="underline"></div>
+      </div>
+
+      <div class="contact-center section-center">
+        <article class="contact">
+          <i class="fas fa-code contact-icon"></i>
+          <h4>Get in touch</h4>
+          <div class="underline"></div>
+          <p>
+            Ob Frontend, Backend, Fullstack oder Datenanalyse. ich bin bereit,
+            aufzusteigen. Ich freue mich auf jeden Kontakt.
+          </p>
+
+          <hr class="hr" />
+          <br />
+          <p>
+            Frontend, backend or fullstack, data analysis. I'm ready to move up.
+            I am looking forward to every contact.
+          </p>
+          <p>
+            <a href="mailto:gbenimako@gmail.com" class="email-a">
+              <i class="fas fa-envelope contact-icon"></i>click to send email</a
+            >
+          </p>
+        </article>
+
+        <!-- contact form -->
+        <article class="contact">
+          <div class="container">
+            <form id="form-contact" action="https://formspree.io/FORM_ID" method="POST">
+              <input type="text" name="name" placeholder="name" />
+              <input type="email" name="_replyto" placeholder="E-mail" />
+              <input type="text" name="subject" placeholder="Subject" />
+              <textarea name="message" placeholder="Enter message"></textarea>
+              <input type="submit" class="btn send-btn" value="Send" />
+            </form>
+          </div>
+        </article>
+        <!-- end of contact form -->
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="footer">
+      <ul class="social-icons">
+        <li>
+          <a
+            href="https://www.github.com/benkinase"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="social-icon"
+          >
+            <i class="fab fa-github"></i>
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.linkedin.com/in/benjamin-gbenimako-81b014a5/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="social-icon"
+          >
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </li>
+      </ul>
+
+      <p>
+        &copy; <span id="date"></span> Benjamin Gbenimako
+      </p>
+    </footer>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
