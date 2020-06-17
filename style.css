@@ -527,9 +527,7 @@ About
   text-align: center;
   margin-bottom: 2rem;
 }
-.about-title .underline {
-  margin-left: 11.5rem;
-}
+
 .about-center {
   display: grid;
   gap: 3rem 2rem;
@@ -547,9 +545,8 @@ About
 }
 
 .about-title .underline {
-  align-items: center;
+  margin-left: auto;
 }
-
 /* about desktop*/
 @media screen and (min-width: 992px) {
   .about-title {
