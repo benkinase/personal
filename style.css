@@ -402,7 +402,7 @@ Sidebar
 }
 .hero-info h4 {
   color: var(--clr-grey-5);
-  font-size: 1rem;
+  font-size: 1.3rem;
 }
 
 .inset {
@@ -457,14 +457,8 @@ Sidebar
   margin-top: -4.5rem;
 }
 
-@media screen and (max-width: 530px) {
-  .about-title .underline {
-    margin-left: auto;
-  }
-
-  .hero-info h4 {
-    font-size: 1.2rem;
-  }
+.about-title .underline {
+  margin-left: auto;
 }
 
 /* hero desktop*/
@@ -558,12 +552,6 @@ About
 
 .about-title .underline {
   align-items: center;
-}
-
-@media screen and (min-width: 530px) {
-  .about-title .underline {
-    margin-left: auto;
-  }
 }
 
 /* about desktop*/
