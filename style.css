@@ -41,7 +41,7 @@ html {
   --ff-secondary: "Open Sans", sans-serif;
   --transition: all 0.3s linear;
   --spacing: 0.25rem;
-  --radius: 0.5rem;
+  --radius: 0.2rem;
   --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   --max-width: 1170px;
@@ -188,8 +188,9 @@ p {
 /* brand*/
 .brand {
   letter-spacing: var(--spacing);
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   font-weight: 600;
+  margin-top: -0.4rem;
 }
 
 .brand-span {
@@ -247,11 +248,11 @@ p {
   }
   .nav-links {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     justify-items: center;
-    -webkit-column-gap: 2rem;
-    -moz-column-gap: 2rem;
-    column-gap: 2rem;
+    -webkit-column-gap: 1.5rem;
+    -moz-column-gap: 1.5rem;
+    column-gap: 1.5rem;
     justify-self: end;
   }
   .nav-links a {
@@ -261,6 +262,10 @@ p {
     letter-spacing: var(--spacing);
     -webkit-transition: var(--transition);
     transition: var(--transition);
+  }
+
+  .nav-links li:nth-child(1) a {
+    margin-left: 2.5rem;
   }
   .nav-links a:hover {
     color: var(--clr-primary-5);
@@ -329,6 +334,8 @@ Sidebar
 }
 .sidebar-links a:hover {
   color: var(--clr-primary-5);
+  border-bottom: 2px solid var(--clr-grey-3);
+  padding-left: 0.5rem;
 }
 .social-icons {
   display: flex;
@@ -397,6 +404,10 @@ Sidebar
   place-items: center;
 }
 
+.hero-info {
+  margin-top: -2.5rem;
+}
+
 .hero-info .underline {
   margin-top: 2.5rem;
 }
@@ -442,8 +453,7 @@ Sidebar
   color: var(--clr-primary-1);
 }
 
-/*ony hero image smaller screen*/
-
+/*hero image smaller screen*/
 .biochem {
   position: absolute;
   font-size: 1.3rem;
@@ -521,7 +531,7 @@ About
 */
 /* about section */
 .about-info {
-  margin-top: -2.5rem;
+  margin-top: -1.7rem;
 }
 .about-title {
   text-align: center;
