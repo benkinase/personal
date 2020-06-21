@@ -389,6 +389,7 @@ Sidebar
   width: 260px;
   border-radius: 50%;
   margin-bottom: 6rem;
+  margin-top: -2rem;
 }
 
 .hero .underline {
@@ -400,7 +401,7 @@ Sidebar
   position: absolute;
   font-size: 1.3rem;
   z-index: 2;
-  margin: 18rem 0 0 2.4rem;
+  margin: 17rem 0 0 2.4rem;
 }
 
 /*container*/
