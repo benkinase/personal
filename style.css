@@ -425,7 +425,8 @@ Sidebar
 }
 
 .hero-btn-hero-icons {
-  display: inline;
+  display: inline-block;
+  position: relative;
 }
 
 .hero-btn {
@@ -527,12 +528,10 @@ About
 ==============================================================================================
 */
 /* about section */
-.about-info {
-  margin-top: -1.7rem;
-}
+
 .about-title {
   text-align: center;
-  margin-bottom: 2rem;
+  margin: -5rem 0 1rem 0;
 }
 
 .about-center {
@@ -561,7 +560,7 @@ About
 @media screen and (min-width: 992px) {
   .about-title {
     text-align: left;
-    margin-bottom: 2rem;
+    margin: -2rem 0 1rem 0;
   }
   .about-title .underline {
     margin-left: 0;
