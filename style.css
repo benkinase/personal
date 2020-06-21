@@ -405,7 +405,7 @@ Sidebar
 }
 
 .hero-info {
-  margin-top: -2.5rem;
+  margin-top: -3.5rem;
 }
 
 .hero-info .underline {
@@ -442,29 +442,29 @@ Sidebar
   font-size: 2rem;
 }
 
-.corriculum {
+.vitae {
   position: absolute;
   margin-left: 15rem;
   margin-top: -2.3rem;
   color: var(--clr-grey-2);
 }
 
-.a-btn {
+.vitae-btn {
   color: var(--clr-primary-1);
 }
 
 /*hero image smaller screen*/
-.biochem {
-  position: absolute;
-  font-size: 1.3rem;
-  z-index: 2;
-  margin: 13rem 0 0 2.4rem;
-}
 
 .hero-pic {
   width: 260px;
   border-radius: 50%;
-  margin-top: -4.5rem;
+  margin-top: -6.5rem;
+}
+.biochem {
+  position: absolute;
+  font-size: 1.3rem;
+  z-index: 2;
+  margin: 11.5rem 0 0 2.4rem;
 }
 
 /* hero desktop*/
@@ -484,9 +484,6 @@ Sidebar
   .hero-center {
     display: flex;
     justify-content: space-evenly;
-
-    /*grid-template-columns: 1fr 2fr;
-    grid-gap: 1rem;*/
   }
 
   .hero-img::before,
@@ -510,7 +507,7 @@ Sidebar
     margin-left: 3.3rem;
   }
 
-  .corriculum {
+  .vitae {
     position: absolute;
     margin-top: -2.4rem;
     margin-left: 18rem;
@@ -525,9 +522,9 @@ Sidebar
 }
 
 /*
-============================================================================
+==============================================================================================
 About
-============================================================================
+==============================================================================================
 */
 /* about section */
 .about-info {
@@ -546,7 +543,10 @@ About
   justify-self: center;
 }
 
-.about-content,
+.about-content {
+  text-align: justify;
+}
+
 .about-btn {
   text-align: center;
 }
@@ -599,7 +599,6 @@ About
     align-self: center;
   }
 
-  .about-content,
   .about-btn {
     text-align: left;
   }
