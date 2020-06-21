@@ -606,6 +606,14 @@ About
   .about-btn {
     text-align: left;
   }
+
+  .page-info p {
+    text-align: justify;
+  }
+
+  .page-info a {
+    font-style: italic;
+  }
 }
 
 /*
