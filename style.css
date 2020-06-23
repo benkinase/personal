@@ -561,6 +561,20 @@ About
 .about-title .underline {
   margin-left: auto;
 }
+
+.soft-skills h3 {
+  color: var(--clr-grey-5);
+}
+
+.soft-skills {
+  margin: 0.8rem;
+  padding: 0.5rem;
+}
+
+.soft-skills li {
+  color: var(--clr-grey-5);
+  padding: 0.2rem;
+}
 /* about desktop*/
 @media screen and (min-width: 992px) {
   .about-title {
@@ -592,7 +606,7 @@ About
     position: absolute;
     width: 100%;
     height: 100%;
-    border: rem solid var(--clr-primary-5);
+    border: 1rem solid var(--clr-primary-5);
     bottom: 0.8rem;
     left: -4rem;
     border-radius: var(--radius);
@@ -613,6 +627,11 @@ About
 
   .page-info a {
     font-style: italic;
+  }
+
+  .soft-skills-holder {
+    display: flex;
+    justify-content: space-between;
   }
 }
 
