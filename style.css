@@ -191,7 +191,7 @@ p {
   font-size: 1.4rem;
   font-weight: 600;
   margin-top: -0.4rem;
-  animation: grow-shrink 2s ease-in-out infinite;
+  animation: grow-shrink 2s ease-in-out 2;
 }
 
 .brand-span {
@@ -920,9 +920,6 @@ Footer
   font-size: 1.25rem;
   text-transform: capitalize;
 }
-
-
-
 
 @keyframes grow-shrink {
   0% {
