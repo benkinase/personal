@@ -250,6 +250,7 @@ p {
   font-size: 2rem;
   cursor: pointer;
   justify-self: end;
+  outline: none;
 }
 
 @media screen and (min-width: 768px) {
@@ -378,6 +379,7 @@ Sidebar
   transition: var(--transition);
   color: #221c1c;
   cursor: pointer;
+  outline: none;
 }
 .close-btn:hover {
   color: var(--clr-primary-5);
