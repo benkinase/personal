@@ -544,10 +544,9 @@ Sidebar
 
 /*
 ==============================================================================================
-About
+index About section
 ==============================================================================================
 */
-/* about section */
 
 .about-title {
   text-align: center;
@@ -577,19 +576,6 @@ About
   margin-left: auto;
 }
 
-.soft-skills h3 {
-  color: var(--clr-grey-5);
-}
-
-.soft-skills {
-  margin: 0.8rem;
-  padding: 0.5rem;
-}
-
-.soft-skills li {
-  color: var(--clr-grey-5);
-  padding: 0.2rem;
-}
 /* about desktop*/
 @media screen and (min-width: 992px) {
   .about-title {
@@ -605,10 +591,7 @@ About
   }
   .about-img {
     position: relative;
-  }
-  .about-img::before {
-    left: -2rem;
-    border-radius: var(--radius);
+    top: 3rem;
   }
 
   #image-about {
@@ -616,17 +599,38 @@ About
     top: 3.8rem;
   }
 
+  .about-photo {
+    width: 80%;
+    margin-left: 2.5rem;
+    margin-top: 0.8rem;
+    border-radius: var(--radius);
+  }
+
+  .about-img::before,
   .about-img::after {
     content: "";
     position: absolute;
-    width: 100%;
-    height: 100%;
-    border: 1rem solid var(--clr-primary-5);
-    bottom: 0.8rem;
-    left: -4rem;
+    width: 80%;
+    height: 80%;
     border-radius: var(--radius);
     background: var(--clr-primary-8);
+  }
+
+  .about-img::before {
+    left: -35px;
+    top: -50px;
     z-index: -1;
+    box-shadow: var(--dark-shadow);
+    border-left: 5px solid var(--clr-grey-2);
+  }
+
+  .about-img::after {
+    left: 2px;
+    top: -20px;
+    z-index: -1;
+    background: var(--clr-primary-9);
+    box-shadow: var(--dark-shadow);
+    border-left: 5px solid var(--clr-grey-2);
   }
   .about-info {
     align-self: center;
@@ -872,9 +876,9 @@ Skills
   background: var(--clr-white);
   min-height: 10rem;
   width: 100%;
-  border-radius: var(--radius);
+
   position: relative;
-  border-right: 7px solid var(--clr-primary-5);
+  border-top: 7px solid var(--clr-grey-2);
   -webkit-transition: var(--transition);
   transition: var(--transition);
 }
@@ -936,16 +940,16 @@ Footer
 }
 
 /*
-=============== 
-Single Page
-===============
+=============================================
+About Page
+=============================================
 */
 .single-page {
   background: var(--clr-primary-10);
   min-height: calc(100vh - 5rem - 198px);
 }
 .page-info {
-  max-width: 700px;
+  max-width: 750px;
 }
 .page-info a {
   text-transform: uppercase;
@@ -955,6 +959,20 @@ Single Page
 }
 .page-info a:hover {
   color: var(--clr-primary-1);
+}
+
+.soft-skills h3 {
+  color: var(--clr-grey-5);
+}
+
+.soft-skills {
+  margin: 0.8rem;
+  padding: 0.5rem;
+}
+
+.soft-skills li {
+  color: var(--clr-grey-5);
+  padding: 0.2rem;
 }
 
 /*
