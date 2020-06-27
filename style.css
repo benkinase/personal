@@ -593,7 +593,7 @@ index About section
   .about-photo {
     width: 80%;
     margin-left: 4.5rem;
-    margin-top: -0.4rem;
+    margin-top: -0.5rem;
     border-radius: var(--radius);
   }
 
@@ -604,7 +604,7 @@ index About section
     width: 80%;
     height: 85%;
     border-radius: var(--radius);
-    background: var(--clr-primary-8);
+    background: var(--clr-primary-9);
   }
 
   .about-img::before {
