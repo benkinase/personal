@@ -240,6 +240,11 @@ p {
   cursor: pointer;
   justify-self: end;
   outline: none;
+  transition: var(--transition);
+}
+
+.nav-btn:hover {
+  color: var(--clr-primary-7);
 }
 
 @media screen and (min-width: 768px) {
@@ -593,7 +598,7 @@ index About section
   .about-photo {
     width: 80%;
     margin-left: 4.5rem;
-    margin-top: -0.5rem;
+    margin-top: -0.6rem;
     border-radius: var(--radius);
   }
 
@@ -617,7 +622,7 @@ index About section
 
   .about-img::after {
     left: 35px;
-    top: -37px;
+    top: -38.5px;
     z-index: -1;
     background: var(--clr-primary-9);
     box-shadow: var(--dark-shadow);
