@@ -923,22 +923,10 @@ Footer
   text-transform: capitalize;
 }
 
-@keyframes grow-shrink {
-  0% {
-    transform: scale(1);
-  }
-  50% {
-    transform: scale(1.2);
-  }
-  100% {
-    transform: scale(1);
-  }
-}
-
 /*
-=============================================
+====================================================================================================
 About Page
-=============================================
+====================================================================================================
 */
 .single-page {
   background: var(--clr-primary-10);
@@ -1180,5 +1168,16 @@ input[type="submit"] {
   }
   to {
     top: 0%;
+  }
+}
+@keyframes grow-shrink {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
   }
 }
