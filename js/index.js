@@ -21,3 +21,10 @@ closeBtn.addEventListener("click", function () {
 });
 // set year
 date.innerHTML = new Date().getFullYear();
+
+//GSAP Animation
+const timeline = gsap.timeline({ defaults: { duration: 1 } });
+timeline
+  .from(".header", { y: "-100%", ease: "bounce" })
+  .from(".link", { opacity: 0, stagger: 0.5 })
+  .from(".hero-info", { x: "100%", opacity: 0 });
