@@ -978,6 +978,7 @@ About Page
 
 .top-skills {
   margin-top: 2rem;
+  margin-bottom: -80px;
 }
 
 .top-skills li {
