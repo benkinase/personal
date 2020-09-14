@@ -690,7 +690,16 @@ Experience
   color: var(--clr-grey-1);
   transition: var(--transition);
 }
+.experience ul li {
+  display: inline-flex;
+  justify-content: space-around;
+  background: var(--clr-primary-9);
 
+  padding: 1rem 0.5rem;
+  margin-bottom: 0.5rem;
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+}
 .experience:hover p,
 .contact:hover p {
   color: var(--clr-white);
