@@ -691,22 +691,24 @@ Experience
   transition: var(--transition);
 }
 .experience ul li {
-  display: inline-flex;
-  justify-content: space-around;
-  background: var(--clr-primary-9);
-
-  padding: 1rem 0.5rem;
+  text-align: left;
+  padding: 0.5rem 0.5rem;
   margin-bottom: 0.5rem;
   -webkit-transition: var(--transition);
   transition: var(--transition);
 }
+.experience ul li i {
+  margin-right: 0.4rem;
+}
+
 .experience:hover p,
 .contact:hover p {
   color: var(--clr-white);
 }
 
 .experience:hover .underline,
-.contact:hover .underline {
+.contact:hover .underline,
+.experience ul {
   background: var(--clr-white);
 }
 
@@ -723,7 +725,7 @@ Experience
 /*desktop*/
 @media screen and (min-width: 992px) {
   .experiences-center {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 35% 35% 30%;
   }
 }
 
